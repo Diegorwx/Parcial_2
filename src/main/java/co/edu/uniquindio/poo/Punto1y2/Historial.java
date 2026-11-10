@@ -1,4 +1,6 @@
-package co.edu.uniquindio.poo;
+package co.edu.uniquindio.poo.Punto1y2;
+
+import co.edu.uniquindio.poo.Estructuras.Stack;
 
 public class Historial {
 
@@ -28,7 +30,6 @@ public class Historial {
             resultado.push(invertida.pop());
         }
         return resultado;
-
     }
 
     public static <T> Stack<T> obtenerSegmento(Stack<T> pila, int inicio, int fin) {

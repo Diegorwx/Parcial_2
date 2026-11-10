@@ -17,8 +17,7 @@ public class Pendientes {
         return seleccionadas;
     }
 
-    private static int pasada(Cola<Solicitud> pendientes, Cola<Solicitud> seleccionadas,
-                              Prioridad prioridad, int restante) {
+    private static int pasada(Cola<Solicitud> pendientes, Cola<Solicitud> seleccionadas, Prioridad prioridad, int restante) {
         int n = pendientes.getSize();
 
         for (int i = 0; i < n; i++) {

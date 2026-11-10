@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo;
+package co.edu.uniquindio.poo.Estructuras;
 
 import java.util.Objects;
 

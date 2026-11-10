@@ -1,4 +1,9 @@
-package co.edu.uniquindio.poo;
+package co.edu.uniquindio.poo.App;
+
+import co.edu.uniquindio.poo.Estructuras.Stack;
+import co.edu.uniquindio.poo.Punto1y2.Estado;
+import co.edu.uniquindio.poo.Punto1y2.Historial;
+import co.edu.uniquindio.poo.Punto1y2.Operacion;
 
 public class Main {
 
