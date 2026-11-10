@@ -106,5 +106,12 @@ public class Cola<T> {
         return true;
     }
 
+    public void print() {
+        NodeSimple<T> actual = firstNode;
+        while (actual != null) {
+            System.out.println("Elemento :" + actual.getData());
+            actual = actual.getNext();
+        }
+    }
 
 }
