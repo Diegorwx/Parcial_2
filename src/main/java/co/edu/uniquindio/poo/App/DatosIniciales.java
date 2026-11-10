@@ -12,7 +12,7 @@ public class DatosIniciales {
                               Stack<String> acciones,
                               Cola<Solicitud> pendientes,
                               ArbolBinario<Integer> equipos) {
-        // Ejercicio 1 (O5 queda en el tope)
+        // Ejercicio 1
         historial.push(new Operacion("O1", Estado.ANULADA));
         historial.push(new Operacion("O2", Estado.CONFIRMADA));
         historial.push(new Operacion("O3", Estado.CONFIRMADA));

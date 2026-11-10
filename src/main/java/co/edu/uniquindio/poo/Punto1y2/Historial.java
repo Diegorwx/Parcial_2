@@ -51,9 +51,9 @@ public class Historial {
 
         while (!aux.isEmpty()) {
             pila.push(aux.pop());
-            while (!invertida.isEmpty()) {
-                resultado.push(invertida.pop());
-            }
+        }
+        while (!invertida.isEmpty()) {
+            resultado.push(invertida.pop());
         }
 
         return resultado;

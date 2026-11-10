@@ -33,10 +33,11 @@ public class ArbolBinario<T extends Comparable<T>>{
     public void recorrerInorden(){
         recorrerInorden(raiz);
     }
+
     private void recorrerInorden(NodeArbol<T> raiz){
         if(raiz == null) return;
         recorrerInorden(raiz.getIzquierdo());
-        System.out.print(raiz.getElemento());
+        System.out.print(raiz.getElemento() + " ");
         recorrerInorden(raiz.getDerecho());
     }
 
